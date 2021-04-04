@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>メモ帳でHTML（更新版）</title>
+ <link rel="stylesheet" href="sample.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
+
+</head>
+<body>
+
+
+<div class="fade">
+
+<div class="center">
+<img width="816" height="612" src="https://img.dlsite.jp/modpub/images2/work/doujin/RJ304000/RJ303340_img_smp1.jpg">
+<hr noshade>
+
+<iframe width="816" height="624" src="http://mo17101y8.sakura.ne.jp/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+
+<hr noshade>
+<div style="white-space: nowrap;">
+
+<div class="slider">
+
+<img src="https://img.dlsite.jp/modpub/images2/work/doujin/RJ314000/RJ313210_img_smp1.jpg" >
+<img src="https://img.dlsite.jp/modpub/images2/work/doujin/RJ314000/RJ313210_img_smp2.jpg" >
+<img src="https://img.dlsite.jp/modpub/images2/work/doujin/RJ314000/RJ313210_img_smp3.jpg" >
+</div>
+</div>
+<hr noshade>
+
+
+
+</div>
+
+</div>
+</div>
+
+<style>
+.fade{
+
+  animation: fadeIn 7.0s ease 0.0s 1 normal;
+
+}
+
+@keyframes fadeIn { /*animetion-nameで設定した値を書く*/
+
+  0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+
+  100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+
+}
+</style>
+</body>
+</html>

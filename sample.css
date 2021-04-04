@@ -1,0 +1,155 @@
+
+
+body {
+  background-color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+p.sample img {
+    width: 1500px;  /* 横幅を200pxに */
+}
+
+.full {
+ 
+  width: 100%;
+  
+  background: url("https://img.dlsite.jp/modpub/images2/work/doujin/RJ314000/RJ313210_img_main.jpg")
+    center / cover;
+}
+
+.full2 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url("https://img.dlsite.jp/modpub/images2/work/doujin/RJ314000/RJ313210_img_smp1.jpg")
+    center / cover;
+}
+
+.nyuuryoku {
+  display: inline-block;/* 文章の流れの中に置いている画像なので inline でも良いが今回は inline-block が適当 */
+  position: relative; /* 通常の文章の流れにある要素なので relative が適切 */
+  top: 500px; /* 下に 10px 下げる */
+}
+
+h1 {
+	float: left;
+	padding: 6px 0;
+}
+	h1 a {
+		display: block;
+		width: 640px;
+		height: 320px;
+		font-size: 0;
+		background: url(https://prtimes.jp/i/42966/67/ogp/d42966-67-644201-0.png) left top/64px auto no-repeat;
+	}
+
+.line{
+border:1px solid #ff0000;
+height:10px;
+}
+
+body {
+font-family: "MS Pゴシック" ;
+}
+
+p.sample1 {font-family:"メイリオ"; }
+
+
+.btn{
+    width:500px;
+    height:80px;
+    line-height:80px;
+}
+.btn a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    color:#000000;
+    font-size:30px;
+    font-weight:bold;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    box-shadow:5px 5px 0px 0px #DEDEDE ;
+}
+.btn a:hover{
+    background:#FFFFFF;
+    color:#000000;
+    margin-left:5px;
+    margin-top:5px;
+    box-shadow:none;
+}
+
+
+.img_wrap{
+  border: 1px solid #ddd;
+  width: 560px;
+  height: 420px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.img_wrap:hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+
+.sample3 {
+	width:			560px;
+	height:			420px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.sample3 .caption {
+	font-size:		200%;
+	color:			#fff;
+	padding-top:		80px;
+	padding-left:		0px;
+}
+.sample3 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.sample3:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+	padding-left:		90px;	/* 右にずらす */
+}
+
+.link{
+  margin:10px 0;
+}
+
+.box{
+ 
+  animation: anim 3s forwards;
+}
+
+@keyframes anim {
+  0% {
+  transform: translateX(0px);
+  }
+
+  100% {
+  transform: translateX(25%);
+  }
+}
+
